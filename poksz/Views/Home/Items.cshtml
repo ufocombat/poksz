@@ -4,11 +4,11 @@
 
 <div class="container">
 
-    <div class="card-deck">
+    <div class="row d-flex justify-content-center">
         @foreach (ItemClass i in ViewBag.items)
         {
 
-            <div class="card">
+            <div class="col-3 card mr-2">
                 <img src=@i.Picture class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">@i.Description</h5>
@@ -19,7 +19,4 @@
         }
     </div>
 </div>
-
-
-
 
