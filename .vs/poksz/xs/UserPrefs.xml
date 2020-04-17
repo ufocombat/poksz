@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{A7ACF1AE-88CA-489A-B0BE-FAEF341CDD50}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="poksz/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="poksz/Controllers/HomeController.cs" Line="26" Column="10" />
+      <File FileName="poksz/Views/Home/Index.cshtml" Line="10" Column="27" />
+      <File FileName="poksz/Views/Shared/_Layout.cshtml" Line="35" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="poksz" expanded="True">
+            <Node name="poksz" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.poksz PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
