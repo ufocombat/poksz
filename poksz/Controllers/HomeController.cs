@@ -22,12 +22,15 @@ namespace poksz.Controllers
 
             var item1 = new ItemClass();
             item1.Description = "Молоко";
+            item1.Price = 100;
 
             var item2 = new ItemClass();
             item2.Description = "Мед";
+            item2.Price = 1000;
 
             var item3 = new ItemClass();
             item3.Description = "Печенье";
+            item3.Price = 50;
 
 
             items.Add(item1);
