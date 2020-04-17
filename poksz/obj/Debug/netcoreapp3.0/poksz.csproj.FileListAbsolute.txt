@@ -8,7 +8,6 @@
 /Users/ufocombat/Projects/poksz/poksz/bin/Debug/netcoreapp3.0/poksz.pdb
 /Users/ufocombat/Projects/poksz/poksz/bin/Debug/netcoreapp3.0/poksz.Views.dll
 /Users/ufocombat/Projects/poksz/poksz/bin/Debug/netcoreapp3.0/poksz.Views.pdb
-/Users/ufocombat/Projects/poksz/poksz/obj/Debug/netcoreapp3.0/poksz.csprojAssemblyReference.cache
 /Users/ufocombat/Projects/poksz/poksz/obj/Debug/netcoreapp3.0/poksz.csproj.CoreCompileInputs.cache
 /Users/ufocombat/Projects/poksz/poksz/obj/Debug/netcoreapp3.0/poksz.MvcApplicationPartsAssemblyInfo.cache
 /Users/ufocombat/Projects/poksz/poksz/obj/Debug/netcoreapp3.0/poksz.RazorAssemblyInfo.cache
@@ -34,3 +33,4 @@
 /Users/ufocombat/Projects/poksz/poksz/obj/Debug/netcoreapp3.0/poksz.pdb
 /Users/ufocombat/Projects/poksz/poksz/obj/Debug/netcoreapp3.0/poksz.genruntimeconfig.cache
 /Users/ufocombat/Projects/poksz/poksz/obj/Debug/netcoreapp3.0/poksz.csproj.CopyComplete
+/Users/ufocombat/Projects/poksz/poksz/obj/Debug/netcoreapp3.0/Razor/Views/Home/Items.cshtml.g.cs
