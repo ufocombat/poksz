@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{A7ACF1AE-88CA-489A-B0BE-FAEF341CDD50}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="poksz/Views/Home/Items.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="poksz/Models/ItemClass.cs">
     <Files>
-      <File FileName="poksz/Controllers/HomeController.cs" Line="34" Column="35" />
-      <File FileName="poksz/Views/Home/Items.cshtml" Line="8" Column="9" />
-      <File FileName="poksz/Models/ItemClass.cs" Line="16" Column="6" />
+      <File FileName="poksz/Controllers/HomeController.cs" Line="35" Column="36" />
+      <File FileName="poksz/Views/Home/Items.cshtml" Line="12" Column="26" />
+      <File FileName="poksz/Models/ItemClass.cs" Line="19" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,11 +11,11 @@
           <Node name="poksz" expanded="True">
             <Node name="poksz" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ItemClass.cs" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Items.cshtml" selected="True" />
-                </Node>
+                <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
             </Node>

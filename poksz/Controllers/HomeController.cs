@@ -12,30 +12,18 @@ namespace poksz.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        public List<ItemClass> items;
+        public List<ItemClass> items = new List<ItemClass>();
 
         public HomeController(ILogger<HomeController> logger)
         {
-            _logger = logger;
+            items.Add(new ItemClass("Молоко", "/img/1.jpg",55));
+            items.Add(new ItemClass("Мед", "/img/2.png",100));
+            items.Add(new ItemClass("Печенье", "/img/3.jpg",55));
 
-            items = new List<ItemClass>();
+            items.Add(new ItemClass("Молоко", "/img/1.jpg", 55));
+            items.Add(new ItemClass("Мед", "/img/2.png", 100));
+            items.Add(new ItemClass("Печенье", "/img/3.jpg", 55));
 
-            var item1 = new ItemClass();
-            item1.Description = "Молоко";
-            item1.Price = 100;
-
-            var item2 = new ItemClass();
-            item2.Description = "Мед";
-            item2.Price = 1000;
-
-            var item3 = new ItemClass();
-            item3.Description = "Печенье";
-            item3.Price = 50;
-
-
-            items.Add(item1);
-            items.Add(item2);
-            items.Add(item3);
         }
 
         public IActionResult Index()
