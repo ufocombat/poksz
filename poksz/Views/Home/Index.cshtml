@@ -5,7 +5,21 @@
     <div class="container">
         <h3> Урок 2</h3>
 
+        <div class="alert alert-primary mt-3 mb-4" id="btn" role="alert">
+            Добро пожаловать на урок!
+        </div>
 
-      
-
+        <button type="button" class="btn btn-secondary"  onclick="btnclick();">Успех</button>
     </div>
+
+<script>function btnclick() {
+    var element = document.getElementById("btn");
+    element.classList.remove("alert-primary");
+
+        if (confirm("Все ОК?")) {
+            element.classList.add("alert-success");
+        }
+        else {
+            element.classList.add("alert-danger");
+        }
+    }</script>
