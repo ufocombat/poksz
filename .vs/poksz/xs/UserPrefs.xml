@@ -1,26 +1,25 @@
 ﻿<Properties StartupConfiguration="{A7ACF1AE-88CA-489A-B0BE-FAEF341CDD50}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="poksz/Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="poksz/Controllers/HomeController.cs">
     <Files>
-      <File FileName="poksz/Controllers/HomeController.cs" Line="44" Column="1" />
+      <File FileName="poksz/Controllers/HomeController.cs" Line="79" Column="1" />
       <File FileName="poksz/Views/Home/Items.cshtml" Line="1" Column="1" />
       <File FileName="poksz/Models/ItemClass.cs" Line="1" Column="1" />
       <File FileName="poksz/Views/Home/Index.cshtml" Line="55" Column="1" />
       <File FileName="poksz/Views/Home/Privacy.cshtml" Line="15" Column="7" />
-      <File FileName="poksz/Views/Home/Users.cshtml" Line="12" Column="29" />
-      <File FileName="poksz/Views/Shared/_Layout.cshtml" Line="28" Column="116" />
+      <File FileName="poksz/Views/Shared/_Layout.cshtml" Line="55" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="poksz" expanded="True">
             <Node name="poksz" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
-                </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
