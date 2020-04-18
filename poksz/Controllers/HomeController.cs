@@ -13,9 +13,12 @@ namespace poksz.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         public static List<ItemClass> items;
+        public static List<UserClass> users;
 
         public HomeController(ILogger<HomeController> logger)
         {
+            users = users??new List<UserClass>();
+
             if (items == null)
             {
                 items = new List<ItemClass>();
@@ -41,6 +44,13 @@ namespace poksz.Controllers
             return View();
         }
 
+        public IActionResult Users()
+        {
+            ViewBag.users = users;
+            return View();
+        }
+
+
         public IActionResult Privacy()
         {
             return View();
@@ -49,7 +59,9 @@ namespace poksz.Controllers
         [HttpPost]
         public IActionResult Reg(String email)
         {
-            items.Add(new ItemClass(email, "/img/3.jpg", 55));
+            UserClass u = new UserClass();
+            u.email = email;
+            users.Add(u);
             return Ok();
         }
 

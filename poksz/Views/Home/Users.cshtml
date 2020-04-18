@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Пользователи";
+    var i = 1;
+}
+
+<div class="container">
+
+    <div class="mb-3">
+
+        <h4>Пользователи</h4>
+    </div>
+
+    <div class="row d-flex justify-content-center">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">email</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (UserClass u in ViewBag.users)
+                {
+                    <tr>
+                        <th scope="row">@(i++)</th>
+                        <td>@u.email</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
