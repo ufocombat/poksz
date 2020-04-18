@@ -5,21 +5,44 @@
     <div class="container">
         <h3> Урок 2</h3>
 
-        <div class="alert alert-primary mt-3 mb-4" id="btn" role="alert">
-            Добро пожаловать на урок!
+        <div class="alert alert-primary mt-3 mb-2" id="btn" role="alert">
+            Введите число больше 10
         </div>
 
-        <button type="button" class="btn btn-secondary"  onclick="btnclick();">Успех</button>
-    </div>
+        <form>
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                    <input type="number" class="form-control" id="inpe" required>
+                    <div class="valid-feedback">
+                        Выглядит отлично!
+                    </div>
+                    <div class="invalid-feedback">
+                       Проверьте число.
+                    </div>
+                </div>
+            </div>
+        </form>
 
-<script>function btnclick() {
-    var element = document.getElementById("btn");
-    element.classList.remove("alert-primary");
+                <button type="button" class="btn btn-secondary mt-1" onclick="btnclick();">Успех</button>
+            </div>
 
-        if (confirm("Все ОК?")) {
-            element.classList.add("alert-success");
-        }
-        else {
-            element.classList.add("alert-danger");
-        }
-    }</script>
+    <script>
+
+
+
+        function btnclick() {
+            var inpe = document.getElementById("inpe");
+            var n = parseInt(inpe.value);
+
+            inpe.classList.remove("is-valid");
+            inpe.classList.remove("is-invalid");
+
+            if (n > 10) {
+                inpe.classList.add("is-valid");
+            }
+            else {
+                inpe.classList.add("is-invalid");
+            }
+
+
+        }</script>
