@@ -42,6 +42,13 @@ namespace poksz.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult Reg(String email)
+        {
+            items.Add(new ItemClass(email, "/img/3.jpg", 55));
+            return Ok();
+        }
+
 
 
 
